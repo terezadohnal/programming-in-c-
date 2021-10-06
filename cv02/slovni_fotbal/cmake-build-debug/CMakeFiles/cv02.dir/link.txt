@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cv02.dir/main.cpp.o CMakeFiles/cv02.dir/Game.cpp.o CMakeFiles/cv02.dir/Dictionary.cpp.o CMakeFiles/cv02.dir/Channel.cpp.o  -o cv02 

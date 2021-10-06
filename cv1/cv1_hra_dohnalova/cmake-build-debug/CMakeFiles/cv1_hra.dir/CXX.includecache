@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cv1/cv1_hra/Game.cpp
+Game.h
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cv1/cv1_hra/Game.h
+iostream
+-
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cv1/cv1_hra/Game.h
+Maze.h
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cv1/cv1_hra/Maze.h
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cv1/cv1_hra/Maze.cpp
+Maze.h
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cv1/cv1_hra/Maze.h
+iostream
+-
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cv1/cv1_hra/Maze.h
+array
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cv1/cv1_hra/array
+Worm.h
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cv1/cv1_hra/Worm.h
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cv1/cv1_hra/Position.h
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cv1/cv1_hra/Worm.h
+Position.h
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cv1/cv1_hra/Position.h
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cv1/cv1_hra/main.cpp
+iostream
+-
+Game.h
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cv1/cv1_hra/Game.h
+

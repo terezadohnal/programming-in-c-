@@ -1,0 +1,2 @@
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv02/cmake-build-debug/CMakeFiles/edit_cache.dir

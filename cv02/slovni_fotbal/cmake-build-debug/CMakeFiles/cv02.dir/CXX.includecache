@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv02/slovni_fotbal/Channel.hpp
+stdio.h
+-
+string
+-
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv02/slovni_fotbal/Dictionary.hpp
+stdio.h
+-
+string
+-
+vector
+-
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv02/slovni_fotbal/Game.cpp
+Game.hpp
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv02/slovni_fotbal/Game.hpp
+iostream
+-
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv02/slovni_fotbal/Game.hpp
+stdio.h
+-
+Channel.hpp
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv02/slovni_fotbal/Channel.hpp
+Dictionary.hpp
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv02/slovni_fotbal/Dictionary.hpp
+
