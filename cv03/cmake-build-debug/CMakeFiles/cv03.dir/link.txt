@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cv03.dir/chatbot/main.cpp.o CMakeFiles/cv03.dir/chatbot/Chatbot.cpp.o CMakeFiles/cv03.dir/chatbot/Loader.cpp.o  -o cv03 

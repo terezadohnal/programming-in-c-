@@ -9,15 +9,16 @@
 #include "Loader.hpp"
 
 
-std::vector<Conversation> Loader::getConversations(const std::string filename) const
-{
+std::vector<Conversation> Loader::getConversations(const std::string filename) const{
     std::vector<Conversation> conversations;
 
     // TODO
     //načítání ze souboru, použití fstreamu
     
-    std::ifstream in(filename); //input file stream, posíláme do něj název souboru
+    std::ifstream in; //input file stream, posíláme do něj název souboru
     std::string row; // do tohoto budu načítat řádek
+
+    in.open(filename);
     
     if (in.is_open()) { //důležitá kontrola
         while (getline(in, row)) {
@@ -28,7 +29,6 @@ std::vector<Conversation> Loader::getConversations(const std::string filename) c
     }else {
         std::cerr << "File does not exist or is not available." << std::endl;
     }
-    
     return conversations;
 }
 
@@ -37,10 +37,10 @@ Conversation Loader::splitLine(const std::string line) const {
     size_t position = line.find(" ");
     std::string keyword = line.substr(0, position);
     std::string answer = line.substr(position + 1, line.length()-1); //length nečísluje od 0
-    
-    std::regex regex(".*" + keyword + ".*"); // tohle musíme poslat do conversation, protože je tam uložen dat. typ regex
+
+    std::regex reg(".*" + keyword + ".*"); // tohle musíme poslat do conversation, protože je tam uložen dat. typ regex
     
     //.* - matchujeme uplně cokoliv
     
-    return {regex, answer}; // samo to vytvoří instanci conversations a pošle tam tyto udaje
+    return {reg, answer}; // samo to vytvoří instanci conversations a pošle tam tyto udaje
 }

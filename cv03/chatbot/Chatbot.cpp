@@ -12,7 +12,6 @@
 
 Chatbot::Chatbot(const std::string filename) {
     // TODO
-
     Loader loader;
     m_conversations = loader.getConversations(filename);
     
@@ -20,10 +19,16 @@ Chatbot::Chatbot(const std::string filename) {
 
 void Chatbot::chat() const {
     // TODO
+    std::string userSentence;
+    std::string answer;
     while(true){
-        std::string input = getUserSentence();
-        std::string answer = findAnswer(input);
-        printAnswer(answer);
+        userSentence = getUserSentence();
+        answer = findAnswer(userSentence);
+        if(answer != "") {
+            printAnswer(answer);
+        }else {
+            exit(0);
+        }
     }
 }
 
@@ -39,16 +44,12 @@ std::string Chatbot::getUserSentence() const {
 
 std::string Chatbot::findAnswer(const std::string userSentence) const {
     // TODO
-    // regex
         
     for (auto conv: m_conversations) {
         if(std::regex_match(userSentence, conv.keyword)) {
             return conv.response;
-        } else {
-            return "";
         }
     }
- 
     return "";
 }
 

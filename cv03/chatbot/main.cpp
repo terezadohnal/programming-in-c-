@@ -24,12 +24,15 @@ int main(int argc, const char * argv[]) {
     //Chatbot chatbot("chat.txt");
     //chatbot.chat();
     
-    Loader pokus;
-    std::vector<Conversation> conversation = pokus.getConversations("chat.txt");
+//    Loader pokus;
+//    std::vector<Conversation> conversation = pokus.getConversations("chat.txt");
     
-    for (auto conv: conversation) {
-        std::cout << conv.response << std::endl;
-    }
+//    for (auto conv: conversation) {
+//        std::cout << conv.response << std::endl;
+//    }
+
+    Chatbot *chatbot = new Chatbot("chat.txt");
+    chatbot->chat();
     
     return 0;
 }

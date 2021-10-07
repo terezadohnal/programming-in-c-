@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv03/chatbot/Chatbot.cpp
+Chatbot.hpp
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv03/chatbot/Chatbot.hpp
+iostream
+-
+regex
+-
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv03/chatbot/Chatbot.hpp
+vector
+-
+Loader.hpp
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv03/chatbot/Loader.hpp
+Conversation.hpp
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv03/chatbot/Conversation.hpp
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv03/chatbot/Conversation.hpp
+regex
+-
+iostream
+-
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv03/chatbot/Loader.cpp
+Loader.hpp
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv03/chatbot/Loader.hpp
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv03/chatbot/Loader.hpp
+iostream
+-
+vector
+-
+fstream
+-
+Conversation.hpp
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv03/chatbot/Conversation.hpp
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv03/chatbot/main.cpp
+iostream
+-
+Loader.hpp
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv03/chatbot/Loader.hpp
+Chatbot.hpp
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv03/chatbot/Chatbot.hpp
+
