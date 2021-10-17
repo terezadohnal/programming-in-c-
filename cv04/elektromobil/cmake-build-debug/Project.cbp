@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cv04">
+				<Option output="/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/cv04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 cv04"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cv04/fast">
+				<Option output="/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/cv04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 cv04/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/terezadohnalova/Desktop/SKOLA\ -\ MENDELU/3.\ SEMESTR/C++/cviceni/cv04/elektromobil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/Game.cpp">
+			<Option target="cv04"/>
+		</Unit>
+		<Unit filename="/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/Game.h">
+			<Option target="cv04"/>
+		</Unit>
+		<Unit filename="/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/Maze.cpp">
+			<Option target="cv04"/>
+		</Unit>
+		<Unit filename="/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/Maze.h">
+			<Option target="cv04"/>
+		</Unit>
+		<Unit filename="/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/Position.cpp">
+			<Option target="cv04"/>
+		</Unit>
+		<Unit filename="/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/Position.h">
+			<Option target="cv04"/>
+		</Unit>
+		<Unit filename="/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/Tesla.cpp">
+			<Option target="cv04"/>
+		</Unit>
+		<Unit filename="/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/Tesla.h">
+			<Option target="cv04"/>
+		</Unit>
+		<Unit filename="/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/main.cpp">
+			<Option target="cv04"/>
+		</Unit>
+		<Unit filename="/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

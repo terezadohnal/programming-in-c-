@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/Position.h
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/Tesla.cpp
+Tesla.h
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/Tesla.h
+iostream
+-
+
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/Tesla.h
+Position.h
+/Users/terezadohnalova/Desktop/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cv04/elektromobil/Position.h
+
