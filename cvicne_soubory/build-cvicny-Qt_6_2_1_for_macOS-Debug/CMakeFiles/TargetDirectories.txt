@@ -1,0 +1,5 @@
+/Users/tereza/School/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cvicne_soubory/build-cvicny-Qt_6_2_1_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Users/tereza/School/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cvicne_soubory/build-cvicny-Qt_6_2_1_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Users/tereza/School/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cvicne_soubory/build-cvicny-Qt_6_2_1_for_macOS-Debug/CMakeFiles/cvicny.dir
+/Users/tereza/School/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cvicne_soubory/build-cvicny-Qt_6_2_1_for_macOS-Debug/CMakeFiles/cvicny_autogen_timestamp_deps.dir
+/Users/tereza/School/SKOLA - MENDELU/3. SEMESTR/C++/cviceni/cvicne_soubory/build-cvicny-Qt_6_2_1_for_macOS-Debug/CMakeFiles/cvicny_autogen.dir

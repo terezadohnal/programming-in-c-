@@ -29,6 +29,8 @@ void Store::addCustomer(const int memberId, const float age,
     
     m_customers.push_back(customer);
     
+    //nebo
+    //m_customers.push_back(Customer{memberId, age, false, name, address});
 }
 
 void Store::selectActiveCustomer(const int memberId) { // const - parametr se nemeni
@@ -80,8 +82,11 @@ void Store::placeOrder() {
     Order newOrder;
     
     newOrder.time = std::chrono::system_clock::now(); // ziskani aktualniho casu
+    
     newOrder.items.resize(m_basket.size());
     std::copy(m_basket.begin(), m_basket.end(), newOrder.items.begin());
+    
+    newOrder.status = OrderStatus::New;
     
     m_orders.insert(std::pair<Customer*, Order>(&(*m_activeCustomer), newOrder));
     //objednavky jsou multimapa, ktera je vektor s klicema
@@ -91,7 +96,7 @@ void Store::placeOrder() {
     //kdyz insertujeme, musime insertovat par
     
     emptyBasket();
-    
+    setVipStatus();
 }
 
 void Store::sortCustomersByVipStatus() {
@@ -100,10 +105,11 @@ void Store::sortCustomersByVipStatus() {
         return (first.vipMember < second.vipMember);
             }
               );
+    
     //sort vezme dvojici prvku a porovna je a prehodi je podle podminky
     
     std::stable_sort(m_customers.begin(), m_customers.end(), [](Customer &first, Customer &second) -> bool {
-        return first.vipMember or !second.vipMember;
+        return !(!first.vipMember and second.vipMember);
         
 //        if (first.vipMember == false and second.vipMember == true) {
 //            return false;
@@ -123,7 +129,7 @@ void Store::printAllCustomers() const {
                   m_customers.begin(),
                   m_customers.end(),
                   [](const Customer &c) -> void {
-                    std::cout << "jmeno: " << c.name << std::endl << "vek: " << c.age << std::endl << "VIP: " << (c.vipMember ? "ano" : "ne") << std::endl << "adresa: " << c.address << std::endl << "ID" << c.memberId;
+                    std::cout << "jmeno: " << c.name << "\tvek: " << c.age << "\tVIP: " << (c.vipMember ? "ano" : "ne") << std::endl << "adresa: " << c.address << std::endl << "ID" << c.memberId;
     });
 }
 
@@ -147,8 +153,8 @@ void Store::printBasketInfo() {
     std::for_each(
                   m_basket.begin(),
                   m_basket.end(),
-                  [](const Item item) -> void {
-        std::cout << "description: " << item.description << " price: " << item.price;
+                  [](const Item &item) -> void {
+        std::cout << "description: " << item.description << "\tprice: " << item.price << std::endl;
     });
 }
 
